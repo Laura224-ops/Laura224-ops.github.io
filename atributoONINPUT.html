@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>atributoONINPUT</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+</head>
+<FORM ONINPUT="RESULTADO.value = (parseInt(TXTN1.value)+parseInt(TXTN2.value)+parseInt(TXTN3.value))/3">
+<LABEL ID="LABEL">NOTA 1:
+<INPUT NAME="TXTN1"
+TYPE="NUNBER"
+MIN="1"
+MAX="20"
+PLACEHOLDER="N1"/>
+</LABEL>
+<LABEL ID="LABEL">NOTA 2:
+<INPUT NAME="TXTN2"
+TYPE="NUMBER"
+MIN="1"
+MAX="20"
+PLACEHOLDER="N2"/>
+</LABEL>
+<LABEL ID="LABEL">NOTA 3:
+<INPUT NAME="TXTN3"
+TYPE="NUMBER"
+MIN="1"
+MAX="20"
+PLACEHOLDER="N3"/>
+</LABEL>
+<LABEL ID="LABEL">EL PROMEDIO ES:
+<OUTPUT NAME="RESULTADO"></OUTPUT>
+</LABEL>
+</FORM> 
+</html>

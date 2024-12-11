@@ -1,0 +1,99 @@
+/*Estilo para todo el documemo*/
+body {
+         background-image: url("descarga.jpg");
+         font-family: Tahoma;
+         font-size: 11px;
+         width: 1200px;
+         margin: auto;
+}
+/*Estilo para la imagen de arriba*/
+#logo {
+        background:
+url("𖤐.jpg")no-repeat
+right;
+
+         margin: 0 auto:
+         background-size: 50%;
+         padding: 20em 0em 0em 0em;
+         text-transform: uppercase;
+}
+/*Estilo para la etiqueta a incluida en H11*/
+#logo h1 a {
+         margin: 0em:
+         padding: 0em 0em 0em 0em;
+         letter-spacing: -.1em,
+         text-decoration: none;
+         font-size: 2em;
+         font-weight: bold;
+         color: #938A8F;
+}
+/*Estilo para el subtitulo "BIENVENIDOS A NUESTRO SITIO WEB"*/
+#subtitulo {
+         padding: 0em;
+         margin-top: -1em;
+         font-size: 1.5em;
+         color: #BDF2FF;
+}
+#menu {
+         list-style: none;
+         padding: 0;
+         background:#092327;
+         width: 90%;
+         max-width:1000px;
+         margin: auto;
+}
+#menu li a{
+         text-decoration: none;
+         color: white;
+         padding: 20px;
+         display: block;
+}
+#menu li{
+         display: inline-block;
+         text-align: center;
+}
+#menu li a:hover{
+         background: ef8354;
+}
+/*Estilo para la seccion que muestra el
+contenido*/
+#seccion{
+         width: 1150px;
+         padding: 20px 40px;
+         background: #FFF;
+         height: 330px;
+         border: black 2px solid;
+}
+/*Estilo para la imagen que se encuentra
+dentro de la seccion*/
+#imagen{
+         margin-top: 2em;
+         width: 330px;
+         height: 250px;
+         text-align: center;
+         border: black 2px solid;
+}
+/*Estilo para el titulo dentro de la seccion*/
+#subtitulo2{
+         font-family:Tahoma, Geneva, sans-
+serif;
+         font-size: 25px;
+         color: #039;
+}
+/*Estilo para el texto del lado derecho*/
+#ladoderecho{
+         margin: -5px 20px 0px 0px;
+         float:right;
+         width: 65%;
+         text-align: justify;
+         color: #666;
+}
+/*Estilo para el pie del documento */
+#pie{
+         text-align: center;
+/*Estilo para todo los parrafos del
+documento*/
+p {
+         font-family:Tahoma;
+         font-size: 11pt;
+}

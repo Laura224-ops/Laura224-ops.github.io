@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Formulario de registro deusuarios</title>
+<link href="estilof.css" rel="stylesheet">
+<meta charset="utf-8">
+</head>
+<body>
+<section id="formulario">
+<form name="frmregistro" method="post" action="principal.html">
+<h1>Formulario de registro</h1>
+<label id="label">Complete el formulario con sus datos</label>
+<p id="linea"></p>
+<label id="label">Nombres y apellidos
+<input name="txtnombres" type="text" id="caja" size="60" placeholder="Ingrese datos completos" required/>
+</label>
+<label id="label">dni
+<input name="txtdni" type="text" id="caja" size="60" placeholder="8 caracteres" required/>
+</label>
+<label id="label">Telefono
+<input type="tel" id="caja" size="60" name="txtfono
+"/>
+</label>
+<label id="label">Estudios realizados</label>
+<label id="label">
+<input type="checkbox" name="chksecundaria" /> Secundaria
+</label>
+<label id="label">
+<input type="checkbox" name="chksecundaria" /> Secundaria
+</label>
+<label id="label">
+<input type="checkbox" name="chktecnico" /> Tecnico
+</label>
+<label id="label">
+<input type="checkbox" name="chkuniversitario" /> Universitario
+</label>
+<br/>
+<label id="label">Estado Civil</label>
+<label id="label">
+<input type="radio" name="btnestado" value="S"
+checked="checked"/> Soltero
+</label>
+<label id="label">
+<input type="radio" name="btnestado" value="C" /> Casado
+</label>
+<label id="label">
+<input type="radio" name="btnestado" value="V" /> Viudo
+</label>
+<label id="label">
+<input type="radio" name="btnestado" value="D" /> Divorciado
+</label>
+<br/>
+<label id="label">Provincia</label>
+<input type type="text" name="txtprovincia" list="provincias"/>
+<datalist id="provincias">
+<option value="Calvillo" />
+<option value="Malpaso" />
+<option value="Ojo" />
+<option value="Tagillo" />
+<option value="Huancayo" />
+</datalist>
+<label id="label">Correo electronico
+<input type="email" id="caja" size="60" name="txtemail"/>
+</label>
+<label id="label">clave personal
+<input type="password" id="caja"
+name="txtclave" size="60"
+placeholder="maximo 6 caracteres" />
+</label>
+<label id="label">Color de referencia
+<input type="color" name="txtcolor" />
+</label>
+<label id="label">Fecha de nacimiento
+<input type="datetime-local" name="txtfecha"/>
+</label>
+<input type="submit" value="registrar">
+<input type="reset" value="limpiar">
+</form>
+</section>
+</body>
+</html>
+
+
+
+
+
+
+

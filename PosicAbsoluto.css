@@ -1,0 +1,21 @@
+h1 {
+	font-family:"trebuchet MS";
+	text-align: center;
+}
+h3 {
+	font-family:"trebuchet MS";
+	position:absolute;
+	border: 5px;
+	background-color: #000;
+	color: #FF0;
+	top: 202px;
+	left: 380px;
+	z-index: 2;
+}
+img {
+    margin: 5px 5px 3px 3px;
+    float: left;
+    width: 24%;
+    color :#666;
+    z-index: 1;
+}

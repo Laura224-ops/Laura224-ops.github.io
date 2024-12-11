@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Operaciones de dos numeros</title>
+</head>
+<body>
+  <form id="calc" name="calc">
+    <label for="txtnumero1">Número 1</label>
+    <input type="number" id="txtnumero1" name="txtnumero1" value=""><br>
+    <label for="txtnumero2">Número 2</label>
+    <input type="number" id="txtnumero2" name="txtnumero2" value=""><br>
+    <input type="button" id="btn-sumar" name="btn-sumar" value="Sumar" onclick="sumar()">
+    <input type="button" id="btn-restar" name="btn-restar" value="Restar" onclick="restar()">
+    <input type="button" id="btn-multiplicar" name="btn-multiplicar" value="Multiplicar" onclick="multiplicar()">
+    <input type="button" id="btn-dividir" name="btn-dividir" value="Dividir" onclick="dividir()">
+    <input type="text" id="resultado" name="resultado" value="0">
+  </form>
+
+  <script>
+    function sumar() {
+      var num1 = document.calc.txtnumero1.value;
+      var num2 = document.calc.txtnumero2.value;
+      var resultado = parseInt(num1) + parseInt(num2);
+      document.calc.resultado.value = resultado;
+    }
+
+    function restar() {
+      var num1 = document.calc.txtnumero1.value;
+      var num2 = document.calc.txtnumero2.value;
+      var resultado = parseInt(num1) - parseInt(num2);
+      document.calc.resultado.value = resultado;
+    }
+
+    function multiplicar() {
+      var num1 = document.calc.txtnumero1.value;
+      var num2 = document.calc.txtnumero2.value;
+      var resultado = parseInt(num1) * parseInt(num2);
+      document.calc.resultado.value = resultado;
+    }
+
+    function dividir() {
+      var num1 = document.calc.txtnumero1.value;
+      var num2 = document.calc.txtnumero2.value;
+      if (num2 != 0) {
+        var resultado = parseInt(num1) / parseInt(num2);
+        document.calc.resultado.value = resultado;
+      } else {
+        document.calc.resultado.value = "Error: No se puede dividir por cero";
+      }
+    }
+  </script>
+</body>
+</html>
